@@ -1,12 +1,13 @@
 import React from 'react'
-import NavBar from './components/NavBar'
+import { NavBar, Home } from './components'
 import "./App.css"
 
 function App() {
+
   return (
     <>
     <NavBar />
-    
+    <Home />
     </>
   )
 }

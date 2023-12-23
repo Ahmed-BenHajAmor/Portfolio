@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@500&display=swap');
 
+:root{
+  --section-padding-horiz: 11em;
+  --section-padding-vert: 8em;
+  --navbar-padding-vert: 1em;
+  --text-color: rgb(100, 100, 100);
+  --logo-font-size: 18px;
+  --links-font-size: 17px;
+}
+
 *{
   margin: 0;
   border: 0;
@@ -7,10 +16,11 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  color: rgb(100, 100, 100);
+  color: var(--text-color);
 }
 
 body{
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
+  padding-top: 3.38em;
 }

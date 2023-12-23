@@ -1,5 +1,8 @@
 .nav-bar{
-    padding: 1em 11em;
+    padding: var(--navbar-padding-vert) var(--section-padding-horiz);
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 nav{
@@ -13,9 +16,15 @@ nav{
     justify-content: space-around;
     align-items: center;
     gap: 2.5em;
+    font-size: var(--links-font-size);
 }
 
 .logo{
-    font-size: 16px;
+    font-size: var(--logo-font-size);
     font-weight: bolder;
+}
+
+.logo h3{
+    width: fit-content;
+    cursor: pointer;
 }

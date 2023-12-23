@@ -2,7 +2,7 @@ import React from 'react'
 import './NavBar.css'
 function NavBar() {
   return (
-    <section className="nav-bar">
+    <header className="nav-bar">
         <nav>
             <div className="logo">
                 <h3>AHMED</h3>
@@ -18,7 +18,7 @@ function NavBar() {
                 </ul>
             </div>
         </nav>
-    </section>
+    </header>
   )
 }
 
