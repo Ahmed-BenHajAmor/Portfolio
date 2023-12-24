@@ -10,7 +10,7 @@ function NavBar() {
 
             <div className="links">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Skills</a></li>
                     <li><a href="#">Services</a></li>

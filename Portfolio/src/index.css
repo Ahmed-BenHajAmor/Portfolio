@@ -2,15 +2,19 @@
 
 :root{
   --section-padding-horiz: 11em;
-  --section-padding-vert: 8em;
+  --section-padding-vert: 7em;
   --navbar-padding-vert: 1em;
   --text-color: rgb(100, 100, 100);
   --links-hover-color: rgb(75, 75, 75);
   --logo-font-size: 18px;
   --links-font-size: 17px;
-  --p-color: rgb(133, 133, 133);
+  --p-color: rgb(161, 161, 161);
   --photo-width: 20em;
   --photo-height: 20em;
+  --body-padding: 3.38em;
+  --section-height: calc(100vh - var(--body-padding));
+  --btn-background: rgb(66, 66, 66);
+  --btn-hover-background: rgb(43, 43, 43);
 }
 
 *{
@@ -26,5 +30,5 @@
 body{
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 3.38em;
+  padding-top: var(--body-padding);
 }

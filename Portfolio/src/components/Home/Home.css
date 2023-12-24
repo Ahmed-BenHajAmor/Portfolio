@@ -1,9 +1,147 @@
+/*Main*/
+.home{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 2em;
+}
+
+.home-accounts-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Home Icons Section*/
+.accounts-icons{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.accounts-icons a:hover .account-icon path{
+    color: var(--links-hover-color);
+}
+
+/*Home Text Section*/
+.home-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-post-discription{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7em;
+}
+
+.home-text{
+    width: 30em;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.name{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.post p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: var(--links-color);
+}
+
+/*say hello btn section*/
+.say-hello{
+    margin-top: 5em;
+    
+    
+}
+
+.say-hello a{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: var(--btn-background);
+}
+
+.say-hello a:hover{
+    background-color: var(--btn-hover-background);
+}
+
+.say-hello div, .say-hello-icon line, polygon{
+    color: white;
+}
+
+.say-hello-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*scroll down section*/
+.scroll-down{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+.scroll-down-icon{
+    position: relative;
+}
+.scroll-down:hover .scroll-down-text p{
+    color: rgb(56, 56, 56);
+}
+.scroll-down-text p, .say-hello-text{
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.scroll-down:hover .scroll-down-icon{
+    animation: scroll-down-animation  .5s infinite;
+}
+
+@keyframes scroll-down-animation {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 5px;
+    }
+}
+/*Home Photo section*/
 .home-photo{
     width: var(--photo-width);
     height: var(--photo-height);
-    border-radius: 50%;
     background-image: url("../../assets/my_photo.webp");
-    background-position: 0 2em;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: .7s ease;
+    animation: photo-animation 2s infinite;
+    border: 10px rgba(121, 121, 121,.5) solid;
+}
+
+@keyframes photo-animation{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60% ;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% ;
+    }
 }

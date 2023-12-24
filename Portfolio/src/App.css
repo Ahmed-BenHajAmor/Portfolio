@@ -1,5 +1,6 @@
-section{
+section:not(:first-child){
     padding: var(--section-padding-vert) var(--section-padding-horiz);
+    height: var(--section-height);
 }
 
 p{
