@@ -19,6 +19,10 @@ nav{
     font-size: var(--links-font-size);
 }
 
+.links a:hover{
+    color: var(--links-hover-color);
+}
+
 .logo{
     font-size: var(--logo-font-size);
     font-weight: bolder;

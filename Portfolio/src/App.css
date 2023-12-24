@@ -1,3 +1,7 @@
 section{
     padding: var(--section-padding-vert) var(--section-padding-horiz);
 }
+
+p{
+    color: var(--p-color);
+}

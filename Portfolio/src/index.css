@@ -5,8 +5,10 @@
   --section-padding-vert: 8em;
   --navbar-padding-vert: 1em;
   --text-color: rgb(100, 100, 100);
+  --links-hover-color: rgb(75, 75, 75);
   --logo-font-size: 18px;
   --links-font-size: 17px;
+  --p-color: rgb(133, 133, 133);
 }
 
 *{
