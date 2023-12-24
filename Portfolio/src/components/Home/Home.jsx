@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
-import { IoIosSend } from "react-icons/io"
+import { IoIosSend } from "react-icons/io";
+import  myPhoto  from "../../assets/my_photo.webp"
 import './Home.css';
 function Home() {
   return (
@@ -35,7 +36,8 @@ function Home() {
       </div>
 
       <div className="home-imag">
-
+        <div className="home-photo">
+        </div>
       </div>
     </section>
   )

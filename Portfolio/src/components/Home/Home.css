@@ -1,0 +1,9 @@
+.home-photo{
+    width: var(--photo-width);
+    height: var(--photo-height);
+    border-radius: 50%;
+    background-image: url("../../assets/my_photo.webp");
+    background-position: 0 2em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

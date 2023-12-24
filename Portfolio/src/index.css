@@ -9,6 +9,8 @@
   --logo-font-size: 18px;
   --links-font-size: 17px;
   --p-color: rgb(133, 133, 133);
+  --photo-width: 20em;
+  --photo-height: 20em;
 }
 
 *{
