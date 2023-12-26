@@ -1,0 +1,23 @@
+.about-cart{
+    padding: 5px 10px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: inset 2px 2px;
+}
+
+.about-cart-title p{
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-cart-sub-title p{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-icon{
+    text-align: center;
+}

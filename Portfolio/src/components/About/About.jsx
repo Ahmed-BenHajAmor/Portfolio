@@ -2,7 +2,7 @@ import React from 'react';
 import "./About.css";
 import { IoNewspaperOutline } from "react-icons/io5";
 import { SectionHeader } from '../';
-import AboutCart from './AboutCart';
+import { AboutCart } from './AboutCart';
 
 function About() {
   return (
@@ -42,7 +42,7 @@ const AboutContent = ()=>{
 const AboutCarts = ()=>{
   return (
     <div className='about-carts'>
-      <AboutCart Icon={IoNewspaperOutline} title={"ahmed"} subTitle={"hhh"}/>
+      <AboutCart Icon={IoNewspaperOutline} title={"Experience"} subTitle={"8 years"}/>
     </div>
   )
 }

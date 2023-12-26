@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutCart.css'
 
-const AboutCart = ({Icon, title, subTitle})=>{
+function AboutCart({Icon, title, subTitle}){
     return (
       <div className='about-cart'>
         <div className="about-icon">
