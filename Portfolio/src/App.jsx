@@ -1,13 +1,16 @@
 import React from 'react'
-import { NavBar, Home } from './components'
+import { NavBar, Home, About } from './components'
 import "./App.css"
+
+
 
 function App() {
 
   return (
     <>
-    <NavBar />
+    <NavBar/>
     <Home />
+    <About />
     </>
   )
 }

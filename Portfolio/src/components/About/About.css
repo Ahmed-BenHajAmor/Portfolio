@@ -1,0 +1,45 @@
+.about{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: var(--section-title-content-gap);
+}
+
+
+.about-main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-image{
+    width: var(--photo-width);
+    height: var(--photo-height);
+    background-image: url("../../assets/about-image.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: var(--photo-height);
+}
+.download-cv-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 18px 25px;
+    border-radius: 18px;
+    background-color: var(--btn-background);
+    font-size: 14px;
+    font-weight: bold;
+}
+.download-cv-btn p{ 
+    color: white;
+}
+.paper path{
+    color: white;
+}
+.paper{
+    font-size: 17px;
+}

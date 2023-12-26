@@ -1,0 +1,14 @@
+.section-header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-header div{
+    text-align: center;
+}
+.section-title-h{
+    font-size: var(--section-title-h-font-size);
+}
+.section-title-p{
+    font-size: var(--section-title-p-font-size);
+}

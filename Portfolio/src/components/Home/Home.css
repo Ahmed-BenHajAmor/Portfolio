@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: auto 1fr auto;
     gap: 2em;
+    padding: 7em var(--section-padding-horiz) !important;
 }
 
 .home-accounts-container{
@@ -47,7 +48,7 @@
 
 .name{
     text-align: center;
-    font-size: 25px;
+    font-size: var(--name-font-size);
     letter-spacing: 1px;
 }
 
