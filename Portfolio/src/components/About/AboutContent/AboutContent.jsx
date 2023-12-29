@@ -20,8 +20,10 @@ function AboutContent() {
 
 const AboutCards = ()=>{
 return (
-    <div className='about-carts'>
+    <div className='about-cards'>
         <AboutCart Icon={IoNewspaperOutline} title={"Experience"} subTitle={"8 years"}/>
+        <AboutCart Icon={IoNewspaperOutline} title={"Completed"} subTitle={"3 Projects"}/>
+        <AboutCart Icon={IoNewspaperOutline} title={"Organisations"} subTitle={"2 Organisations"}/>
     </div>
 )
 }

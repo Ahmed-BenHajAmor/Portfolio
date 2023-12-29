@@ -1,9 +1,9 @@
 .about-cart{
-    padding: 5px 10px;
-    width: fit-content;
+    padding: 14px 14px;
+    width: 7em;
     height: fit-content;
-    border: 1px grey solid;
-    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
 }
 
 .about-cart-title p{

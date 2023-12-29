@@ -17,9 +17,11 @@ function About() {
 const AboutMainContent = ()=>{
   return (
     <div className="about-main-content">
+      <div className="about-image-container">
         <AboutImage />
-        <AboutContent />
       </div>
+      <AboutContent />
+    </div>
   )
 }
 

@@ -3,8 +3,16 @@
     grid-template-rows: auto 1fr;
     gap: var(--section-title-content-gap);
 }
-
-
+.about-main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.about-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .about-image{
     width: var(--photo-width);

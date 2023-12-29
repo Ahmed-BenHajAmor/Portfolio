@@ -1,12 +1,12 @@
-.about-main-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 .about-content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: var(--photo-height);
+    align-self: center;
+    justify-self: center;
+    width: 25em;
 }
 .download-cv-btn{
     display: flex;
@@ -17,6 +17,7 @@
     background-color: var(--btn-background);
     font-size: 14px;
     font-weight: bold;
+    cursor: pointer;
 }
 .download-cv-btn p{ 
     color: white;
@@ -26,4 +27,10 @@
 }
 .paper{
     font-size: 17px;
+}
+
+.about-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
