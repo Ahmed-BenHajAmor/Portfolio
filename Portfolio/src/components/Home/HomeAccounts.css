@@ -1,0 +1,18 @@
+.home-accounts-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accounts-icons{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.accounts-icons a:hover .account-icon path{
+    color: var(--links-hover-color);
+}

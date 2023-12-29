@@ -1,5 +1,5 @@
 import React from 'react'
-import './AboutCart.css'
+import './AboutCard.css'
 
 function AboutCart({Icon, title, subTitle}){
     return (

@@ -1,0 +1,95 @@
+/*Home Text Section*/
+.home-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-post-discription{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7em;
+}
+
+.home-text{
+    width: 30em;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.name{
+    text-align: center;
+    font-size: var(--name-font-size);
+    letter-spacing: 1px;
+}
+
+.post p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: var(--links-color);
+}
+
+/*say hello btn section*/
+.say-hello{
+    margin-top: 5em;
+    
+    
+}
+
+.say-hello a{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: var(--btn-background);
+}
+
+.say-hello a:hover{
+    background-color: var(--btn-hover-background);
+}
+
+.say-hello div, .say-hello-icon line, polygon{
+    color: white;
+}
+
+.say-hello-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-down{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+.scroll-down-icon{
+    position: relative;
+}
+.scroll-down:hover .scroll-down-text p{
+    color: rgb(56, 56, 56);
+}
+.scroll-down-text p, .say-hello-text{
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.scroll-down:hover .scroll-down-icon{
+    animation: scroll-down-animation  .5s infinite;
+}
+
+@keyframes scroll-down-animation {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 5px;
+    }
+}

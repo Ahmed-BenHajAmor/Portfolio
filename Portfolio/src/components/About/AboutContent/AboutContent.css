@@ -1,0 +1,29 @@
+.about-main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: var(--photo-height);
+}
+.download-cv-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 18px 25px;
+    border-radius: 18px;
+    background-color: var(--btn-background);
+    font-size: 14px;
+    font-weight: bold;
+}
+.download-cv-btn p{ 
+    color: white;
+}
+.paper path{
+    color: white;
+}
+.paper{
+    font-size: 17px;
+}

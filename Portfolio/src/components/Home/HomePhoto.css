@@ -1,0 +1,23 @@
+.home-photo{
+    width: var(--photo-width);
+    height: var(--photo-height);
+    background-image: url("../../assets/my_photo.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .7s ease;
+    animation: photo-animation 2s infinite;
+    border: 10px rgba(121, 121, 121,.5) solid;
+}
+
+@keyframes photo-animation{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60% ;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% ;
+    }
+}
