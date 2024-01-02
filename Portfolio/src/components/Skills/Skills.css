@@ -1,0 +1,5 @@
+.skills{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: var(--section-title-content-gap);
+}

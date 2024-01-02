@@ -29,7 +29,7 @@ const NavBarLinks = ()=>{
         <ul>
             <li><Link to="#" smooth>Home</Link></li>
             <li><Link to="#about" smooth>About</Link></li>
-            <li><Link to="#">Skills</Link></li>
+            <li><Link to="#skills">Skills</Link></li>
             <li><Link to="#">Services</Link></li>
             <li><Link to="#">Project</Link></li>
         </ul>

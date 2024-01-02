@@ -1,0 +1,21 @@
+.skill-title{
+    font-size: 18px;
+}
+.skill-sub-title{
+    font-size: 12px;
+}
+.skill-text{
+    letter-spacing: 1px;
+}
+.skill-icon{
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    width: fit-content;
+    height: fit-content;
+}

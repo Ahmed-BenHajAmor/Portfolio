@@ -1,10 +1,13 @@
 import React from 'react';
 import './Skills.css';
+import "./SkillContainer.css"
 import { SectionHeader } from '../';
+import { FaCheckCircle } from "react-icons/fa";
+
 
 function Skills() {
   return (
-    <section className="skills">
+    <section className="skills" id='skills'>
         <SectionHeader title={'Skills'} subTitle={'My technical and social level'}/>
         <SkillsMainContent />
     </section>
@@ -12,16 +15,24 @@ function Skills() {
 }
 
 const SkillsMainContent = ()=>{
-    const skills = [
+    const hardSkills = [
         {
-            title: 'ahmed',
-            subTitle: 'bel'
+            title: 'HTML',
+            subTitle: 'Good'
+        },
+        {
+            title: 'HTML',
+            subTitle: 'Good'
+        },
+        {
+            title: 'HTML',
+            subTitle: 'Good'
         }
     ]
     return (
         <div className='skills-main-content'>
             <div className="hard-skills">
-                <HSSkills contentArray={skills}/>
+                <HSSkills contentArray={hardSkills}/>
             </div>
         </div>
     )
@@ -39,10 +50,10 @@ const HSSkills = ({contentArray})=>{
 const SkillContainer = ({title, subTitle})=>{
     return (
         <div className="skill-container">
-            <div className="skill-icon"></div>
+            <div className="skill-icon"><FaCheckCircle /></div>
             <div className="skill-text">
                 <div className="skill-title"><h4>{title}</h4></div>
-                <div className="skill-sub-"><p>{subTitle}</p></div>
+                <div className="skill-sub-title"><p>{subTitle}</p></div>
             </div>
         </div>
     )
