@@ -1,11 +1,16 @@
 .skill-title{
     font-size: 18px;
+    
+}
+.skill-title *{
+    color: var(--skills-color);
 }
 .skill-sub-title{
     font-size: 12px;
 }
 .skill-text{
     letter-spacing: 1px;
+    
 }
 .skill-icon{
     font-size: 15px;
@@ -18,4 +23,5 @@
     gap: 10px;
     width: fit-content;
     height: fit-content;
+    padding: 10px 30px;
 }

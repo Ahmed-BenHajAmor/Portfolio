@@ -1,0 +1,8 @@
+.hs-skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: fit-content;
+    height: fit-content;
+   
+}

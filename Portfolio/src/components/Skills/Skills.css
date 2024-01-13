@@ -3,3 +3,22 @@
     grid-template-rows: auto 1fr;
     gap: var(--section-title-content-gap);
 }
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.skills-main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills-title{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}

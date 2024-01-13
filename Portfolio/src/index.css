@@ -14,6 +14,7 @@
   --body-padding: 3.38em;
   --section-height: calc(100vh - var(--body-padding));
   --btn-background: rgb(66, 66, 66);
+  --skills-color: rgb(97, 97, 97);
   --btn-hover-background: rgb(43, 43, 43);
   --name-font-size: 25px;
   --section-title-h-font-size: 23px;

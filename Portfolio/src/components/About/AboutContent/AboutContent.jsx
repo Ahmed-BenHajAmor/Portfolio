@@ -1,5 +1,9 @@
 import React from 'react'
 import { IoNewspaperOutline } from "react-icons/io5";
+import { MdWork } from "react-icons/md";
+import { AiFillProject } from "react-icons/ai";
+import { FaPeopleCarry } from "react-icons/fa";
+
 import AboutCart from '../AboutCard/AboutCard';
 import './AboutContent.css';
 
@@ -21,9 +25,9 @@ function AboutContent() {
 const AboutCards = ()=>{
 return (
     <div className='about-cards'>
-        <AboutCart Icon={IoNewspaperOutline} title={"Experience"} subTitle={"0 years"}/>
-        <AboutCart Icon={IoNewspaperOutline} title={"Completed"} subTitle={"3 Projects"}/>
-        <AboutCart Icon={IoNewspaperOutline} title={"Organisations"} subTitle={"2 Organisations"}/>
+        <AboutCart Icon={MdWork} title={"Experience"} subTitle={"0 years"}/>
+        <AboutCart Icon={AiFillProject} title={"Completed"} subTitle={"3 Projects"}/>
+        <AboutCart Icon={FaPeopleCarry} title={"Organisations"} subTitle={"2 Organisations"}/>
     </div>
 )
 }
