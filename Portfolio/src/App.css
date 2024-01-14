@@ -25,3 +25,7 @@ section:not(:first-child){
 .not-dark-color{
     color: var(--not-dark-color);
 }
+
+.p-font-size{
+    font-size: var(--section-title-p-font-size);
+}

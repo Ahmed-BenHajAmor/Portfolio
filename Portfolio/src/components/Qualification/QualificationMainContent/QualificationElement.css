@@ -1,0 +1,25 @@
+.qualification-element{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 15px;
+}
+
+
+
+.qualification-line{
+    width: 2px;
+    height: 100%;
+    background-color: var(--not-dark-color);
+
+}
+
+.qualification-circle{
+    width: 10px;
+    height: 10px;
+    background-color: var(--dark-color);
+    border-radius: 50%;
+    position: relative;
+    left: -4px;
+    
+}

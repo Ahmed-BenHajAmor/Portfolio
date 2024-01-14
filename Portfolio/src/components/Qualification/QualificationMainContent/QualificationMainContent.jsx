@@ -1,15 +1,19 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import QualificationNavigation from './QualificationNavigation'
 import RoadMap from './RoadMap'
 import './QualificationMainContent.css'
 import Education from './Education'
+import { myContext } from '../../../App'
+
 function QualificationMainContent() {
+  const {state} = useContext(myContext)
   return (
     <div className="qualification-main-content">
       <div className="qualification-container">
           <QualificationNavigation />
-          <RoadMap />
-          <Education />
+          {state.edu ? <Education /> : <RoadMap />}
+          
+          
       </div>
     </div>
   )
