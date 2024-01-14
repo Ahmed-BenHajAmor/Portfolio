@@ -1,6 +1,8 @@
-export const Reducer = (action, state)=>{
+export const Reducer = (state, action)=>{
     switch(action.type){
         case "CHANGE_EDU":
-            return {...state, edu: !state.edu}
+            return {...state, edu: action.value}
+        default:
+            return state    
     }
 }

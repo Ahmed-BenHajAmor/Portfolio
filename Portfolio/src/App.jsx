@@ -13,13 +13,13 @@ function App() {
   return (
     <>
     <NavBar/>
-    <myContext.Provider value={dispatch}>
+    <myContext.Provider value={{dispatch, state}}>
       <div className="portfolio-body">
         <ScrollTop />
         <Home />
         <About />
         <Skills />
-        <Qualification edu={state.edu}/>
+        <Qualification />
       </div>
     </myContext.Provider>
     

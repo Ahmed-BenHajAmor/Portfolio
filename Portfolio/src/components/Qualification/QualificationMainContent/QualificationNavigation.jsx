@@ -5,19 +5,19 @@ import { IoAnalyticsOutline } from "react-icons/io5";
 import { myContext } from '../../../App';
 
 
-const QualificationNavigation = ({edu})=>{
-  const value = useContext(myContext)
+const QualificationNavigation = ()=>{
+  const {dispatch, state} = useContext(myContext)
   return (
     <div className='qualification-navigation'>
-      <QualificationLink text={"Education"} Icon={FaGraduationCap} edu={edu}/>
-      <QualificationLink text={"Road map"} Icon={IoAnalyticsOutline} edu={!edu}/>
+      <QualificationLink onClick={()=> dispatch({type :"CHANGE_EDU", value: true})} text={"Education"} Icon={FaGraduationCap} edu={state.edu}/>
+      <QualificationLink onClick={()=> dispatch({type :"CHANGE_EDU", value: false})}  text={"Road map"} Icon={IoAnalyticsOutline} edu={!state.edu}/>
     </div>
   )
 }
 
-const QualificationLink = ({text, Icon, edu})=>{
+const QualificationLink = ({onClick, text, Icon, edu})=>{
   return (
-    <div className={`qualification-link border-bottom ${edu && "border-change"}`}>
+    <div onClick={onClick} className={`qualification-link border-bottom ${edu && "border-change"}`}>
       <div className="Qualification-link-icon super-dark-color"><span><Icon size={"25px"}/></span></div>
       <div className="Qualification-link-title super-dark-color"><span>{text}</span></div>
     </div>
