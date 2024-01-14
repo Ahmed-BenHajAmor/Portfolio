@@ -1,22 +1,28 @@
-import React from 'react'
+import React, {useReducer} from 'react'
 import { NavBar, Home, About, ScrollTop, Skills, Qualification } from './components'
 import "./App.css"
- 
+import { createContext } from 'react'
+import { Reducer } from './Reducer' 
+import { FaDisplay } from 'react-icons/fa6'
 
+export const myContext = createContext()
 
 
 function App() {
-
+  const [state, dispatch] = useReducer(Reducer, {edu: true})
   return (
     <>
     <NavBar/>
-    <div className="portfolio-body">
-      <ScrollTop />
-      <Home />
-      <About />
-      <Skills />
-      <Qualification />
-    </div>
+    <myContext.Provider value={dispatch}>
+      <div className="portfolio-body">
+        <ScrollTop />
+        <Home />
+        <About />
+        <Skills />
+        <Qualification edu={state.edu}/>
+      </div>
+    </myContext.Provider>
+    
     
     </>
   )
