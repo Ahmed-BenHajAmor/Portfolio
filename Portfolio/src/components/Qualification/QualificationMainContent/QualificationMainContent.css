@@ -1,0 +1,15 @@
+.qualification-container{
+    width: 50%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.qualification-main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

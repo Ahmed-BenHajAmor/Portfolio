@@ -10,11 +10,14 @@ function App() {
   return (
     <>
     <NavBar/>
-    <ScrollTop />
-    <Home />
-    <About />
-    <Skills />
-    <Qualification />
+    <div className="portfolio-body">
+      <ScrollTop />
+      <Home />
+      <About />
+      <Skills />
+      <Qualification />
+    </div>
+    
     </>
   )
 }

@@ -6,7 +6,7 @@ const HSSkills = ({contentArray})=>{
     return (
         <div className='hs-skills'>
             {contentArray.map((skill)=>(
-                <SkillContainer {...skill}/>
+                <SkillContainer key={skill.id} {...skill}/>
             ))}
         </div>
     )

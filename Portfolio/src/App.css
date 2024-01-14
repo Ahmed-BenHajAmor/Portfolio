@@ -1,6 +1,9 @@
 section:not(:first-child){
     padding: var(--section-padding-vert) var(--section-padding-horiz);
     height: var(--section-height);
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: var(--section-title-content-gap);
 }
 
 .super-plus-dark-color{
