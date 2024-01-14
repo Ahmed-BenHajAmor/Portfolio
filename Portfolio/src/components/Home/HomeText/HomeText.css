@@ -71,6 +71,7 @@
 }
 .scroll-down-icon{
     position: relative;
+    z-index: inherit;
 }
 .scroll-down:hover .scroll-down-text p{
     color: rgb(56, 56, 56);
