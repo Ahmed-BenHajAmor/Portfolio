@@ -38,7 +38,7 @@ const SkillsMainContent = ()=>{
 
 const SkillsTitle = ({title})=>{
     return (
-        <div className='skills-title'>
+        <div className='skills-title dark-color'>
             <h4>{title}</h4>
         </div>
     )

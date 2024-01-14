@@ -2,9 +2,7 @@
     font-size: 18px;
     
 }
-.skill-title *{
-    color: var(--skills-color);
-}
+
 .skill-sub-title{
     font-size: 12px;
 }

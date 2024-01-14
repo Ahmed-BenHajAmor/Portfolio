@@ -1,21 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@500&display=swap');
 
 :root{
+  --super-plus-dark-color: rgb(43, 43, 43);
+  --super-dark-color: rgb(66, 66, 66);
+  --dark-color-hover: rgb(75, 75, 75);
+  --dark-color: rgb(78, 78, 78);
+  --normal-dark-color: rgb(97, 97, 97);
+  --not-dark-color: rgb(161, 161, 161);
+  
+  
+  
+
   --section-padding-horiz: 11em;
   --section-padding-vert: 5em;
   --navbar-padding-vert: 1em;
-  --text-color: rgb(78, 78, 78);
-  --links-hover-color: rgb(75, 75, 75);
+  
   --logo-font-size: 18px;
   --links-font-size: 17px;
-  --p-color: rgb(161, 161, 161);
+  
   --photo-width: 20em;
   --photo-height: 20em;
   --body-padding: 3.38em;
   --section-height: calc(100vh - var(--body-padding));
-  --btn-background: rgb(66, 66, 66);
-  --skills-color: rgb(97, 97, 97);
-  --btn-hover-background: rgb(43, 43, 43);
+  
+  
+  
   --name-font-size: 25px;
   --section-title-h-font-size: 23px;
   --section-title-p-font-size: 15px;
@@ -29,7 +38,6 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  color: var(--text-color);
 }
 
 body{

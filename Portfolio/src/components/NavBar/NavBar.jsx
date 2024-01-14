@@ -16,7 +16,7 @@ function NavBar() {
 
 const NavBarLogo = () =>{
     return (
-        <div className="logo">
+        <div className="logo super-dark-color">
             <h3>AHMED</h3>
         </div>
     )
@@ -27,15 +27,22 @@ const NavBarLinks = ()=>{
         <div className="links">
         <BrowserRouter>
         <ul>
-            <li><Link to="#" smooth>Home</Link></li>
-            <li><Link to="#about" smooth>About</Link></li>
-            <li><Link to="#skills">Skills</Link></li>
-            <li><Link to="#">Services</Link></li>
-            <li><Link to="#">Project</Link></li>
+            <OneLink text={'Home'} linksTo={'#'}/>
+            <OneLink text={'About'} linksTo={'#about'}/>
+            <OneLink text={'Skills'} linksTo={'#skills'}/>
+            <OneLink text={'Services'} linksTo={'#'}/>
+            <OneLink text={'Projects'} linksTo={'#'}/>
+            
         </ul>
         </BrowserRouter>
         
     </div>
+    )
+}
+
+const OneLink = ({text, linksTo})=>{
+    return (
+        <li><Link to={linksTo} smooth className='normal-dark-color'>{text}</Link></li>
     )
 }
 export default NavBar;

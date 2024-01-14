@@ -35,7 +35,7 @@ return (
 
 const AboutDiscrition = ({discrition})=>{
 return (
-    <div className='about-text'>
+    <div className='about-text not-dark-color'>
     <p>{discrition}</p>
     </div>
 )

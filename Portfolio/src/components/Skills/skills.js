@@ -1,53 +1,53 @@
 export const hardSkills = [
     {
         title: 'HTML',
-        subTitle: 'Good'
+        subTitle: 'SINCE 2021'
     },
     {
         title: 'HTML',
-        subTitle: 'Good'
+        subTitle: 'SINCE 2021'
     },
     {
         title: 'HTML',
-        subTitle: 'Good'
+        subTitle: 'SINCE 2021'
     },
     {
         title: 'HTML',
-        subTitle: 'Good'
+        subTitle: 'SINCE 2021'
     },
     {
         title: 'HTML',
-        subTitle: 'Good'
+        subTitle: 'SINCE 2021'
     },
     {
         title: 'HTML',
-        subTitle: 'Good'
+        subTitle: 'SINCE 2021'
     }
 ]
 
 export const softSkills = [
     {
         title: 'HTML',
-        subTitle: 'Good'
+        subTitle: 'SINCE 2021'
     },
     {
         title: 'HTML',
-        subTitle: 'Good'
+        subTitle: 'SINCE 2021'
     },
     {
         title: 'HTML',
-        subTitle: 'Good'
+        subTitle: 'SINCE 2021'
     },
     {
         title: 'HTML',
-        subTitle: 'Good'
+        subTitle: 'SINCE 2021'
     },
     {
         title: 'HTML',
-        subTitle: 'Good'
+        subTitle: 'SINCE 2021'
     },
     {
         title: 'HTML',
-        subTitle: 'Good'
+        subTitle: 'SINCE 2021'
     }
 ]

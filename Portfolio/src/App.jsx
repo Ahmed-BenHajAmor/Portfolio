@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar, Home, About, ScrollTop, Skills } from './components'
+import { NavBar, Home, About, ScrollTop, Skills, Qualification } from './components'
 import "./App.css"
  
 
@@ -14,6 +14,7 @@ function App() {
     <Home />
     <About />
     <Skills />
+    <Qualification />
     </>
   )
 }

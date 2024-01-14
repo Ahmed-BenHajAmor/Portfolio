@@ -14,5 +14,5 @@
 }
 
 .accounts-icons a:hover .account-icon path{
-    color: var(--links-hover-color);
+    color: var(--super-dark-color);
 }

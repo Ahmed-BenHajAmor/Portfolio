@@ -10,7 +10,7 @@ const HomeText = ()=>{
 return (
     <div className="home-text-container">
         <div className="home-text">
-            <NamePostDiscrition />
+            <NamePostDescription />
             <SayHelloBtn />
             <ScrollDown />
         </div>
@@ -19,13 +19,13 @@ return (
 )
 }
 
-const NamePostDiscrition = ()=>{
+const NamePostDescription = ()=>{
     return (
-        <div className="name-post-discription">
-            <div className="name"><h1>Ahmed Ben Haj Amor  🖐️</h1></div>
-            <div className="post"><p>React Devoloper</p></div>
-            <div className="discription">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rem quis odio aliquid molestias iure libero qui</p>
+        <div className="name-post-description">
+            <div className="name super-dark-color"><h1>Ahmed Ben Haj Amor  🖐️</h1></div>
+            <div className="post dark-color"><p>React Developer</p></div>
+            <div className="description not-dark-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rem quis odio aliquid molestias iure libero qui</p>
             </div>
         </div>
     )
@@ -47,8 +47,8 @@ const ScrollDown = ()=>{
         <div>
             <BrowserRouter>
                 <Link to='#about' smooth className="scroll-down">
-                    <div className="scroll-down-text"><p>Scroll down</p></div>
-                    <div className="scroll-down-icon"><FaArrowDownLong /></div>
+                    <div className="scroll-down-text super-dark-color"><p>Scroll down</p></div>
+                    <div className="scroll-down-icon super-dark-color"><FaArrowDownLong /></div>
                 </Link>
             </BrowserRouter>
         </div>

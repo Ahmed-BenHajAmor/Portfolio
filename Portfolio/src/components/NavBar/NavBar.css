@@ -21,8 +21,10 @@ nav{
     font-size: var(--links-font-size);
 }
 
+
+
 .links a:hover{
-    color: var(--links-hover-color);
+    color: var(--super-dark-color);
 }
 
 .logo{

@@ -3,6 +3,22 @@ section:not(:first-child){
     height: var(--section-height);
 }
 
-p{
-    color: var(--p-color);
+.super-plus-dark-color{
+    color: var(--super-plus-dark-color);
+}
+
+.super-dark-color{
+    color: var(--super-dark-color);
+}
+
+.dark-color{
+    color: var(--dark-color);
+}
+
+.normal-dark-color{
+    color: var(--normal-dark-color);
+}
+
+.not-dark-color{
+    color: var(--not-dark-color);
 }
