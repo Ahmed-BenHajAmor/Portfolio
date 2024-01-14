@@ -3,14 +3,26 @@
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     gap: 15px;
+    
+}
+.qualification-element-container{
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 2px;
 }
 
+.qualification-element-container *{
+    width: 100%;
+}
 
 
 .qualification-line{
     width: 2px;
     height: 100%;
     background-color: var(--not-dark-color);
+    padding-bottom: 60px;
+   
 
 }
 

@@ -1,9 +1,9 @@
 .qualification-container{
-    width: 50%;
+    width: 27em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 35px;
 
 }
 .qualification-main-content{

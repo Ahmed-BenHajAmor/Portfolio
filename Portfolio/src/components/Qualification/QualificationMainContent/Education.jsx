@@ -5,7 +5,7 @@ import { education } from './Qualification'
 
 function Education() {
   return (
-    <div className="education">
+    <div className="education scroll-bar">
       {education.map((el)=> 
       <QualificationElement key={el.number} number={el.number} title={el.title} platform={el.platform} year={el.year}/> 
       )}
