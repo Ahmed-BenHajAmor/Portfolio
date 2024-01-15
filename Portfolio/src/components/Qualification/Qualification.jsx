@@ -5,7 +5,7 @@ import { QualificationMainContent } from './QualificationMainContent';
 
 function Qualification() {
   return (
-    <section className="Qualification">
+    <section id='qualification' className="Qualification">
         <SectionHeader title={'Qualification'} subTitle={'My personal journey'}/>
         <QualificationMainContent />
     </section>

@@ -1,8 +1,8 @@
 export const education = [
     {
         number: 0,
-        title: "Bacalorate",
-        platform: "Frabi Mornaguia High School",
+        title: "Baccalaureate",
+        platform: "Farabi Mornaguia High School",
         year: '2023',
     },
     {

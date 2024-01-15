@@ -30,8 +30,8 @@ const NavBarLinks = ()=>{
             <OneLink text={'Home'} linksTo={'#'}/>
             <OneLink text={'About'} linksTo={'#about'}/>
             <OneLink text={'Skills'} linksTo={'#skills'}/>
-            <OneLink text={'Services'} linksTo={'#'}/>
-            <OneLink text={'Projects'} linksTo={'#'}/>
+            <OneLink text={'Qualification'} linksTo={'#qualification'}/>
+            <OneLink text={'Projects'} linksTo={'#projects'}/>
             
         </ul>
         </BrowserRouter>

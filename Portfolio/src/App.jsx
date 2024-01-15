@@ -1,9 +1,8 @@
 import React, {useReducer} from 'react'
-import { NavBar, Home, About, ScrollTop, Skills, Qualification } from './components'
+import { NavBar, Home, About, ScrollTop, Skills, Qualification, Projects } from './components'
 import "./App.css"
 import { createContext } from 'react'
 import { Reducer } from './Reducer' 
-import { FaDisplay } from 'react-icons/fa6'
 
 export const myContext = createContext()
 
@@ -20,6 +19,7 @@ function App() {
         <About />
         <Skills />
         <Qualification />
+        <Projects />
       </div>
     </myContext.Provider>
     
