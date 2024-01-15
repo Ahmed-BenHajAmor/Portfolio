@@ -4,6 +4,7 @@ section:not(:first-child){
     display: grid;
     grid-template-rows: auto 1fr;
     gap: var(--section-title-content-gap);
+    max-width: 100vw;
 }
 
 .super-plus-dark-color{
