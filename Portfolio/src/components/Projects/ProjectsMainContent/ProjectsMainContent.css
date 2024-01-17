@@ -4,7 +4,7 @@
     align-items: center;
     gap: 20px;
     overflow-x: scroll;
-    max-width: calc(100vw - var(--section-padding-horiz) * 2);
+    width: calc(100vw - var(--section-padding-horiz) * 2);
     padding-bottom: 15px;
 }
 
