@@ -1,12 +1,29 @@
-section:not(:first-child){
+.initial-sec{
     padding: var(--section-padding-vert) var(--section-padding-horiz);
     height: var(--section-height);
     display: grid;
     grid-template-rows: auto 1fr;
     gap: var(--section-title-content-gap);
-    max-width: 100vw;
 }
 
+@media screen and (max-width: 1480px ){
+    .initial-sec {
+        padding: var(--section-padding-vert) 4em !important;
+    }
+}
+
+@media screen and (max-width: 1350px ){
+    .initial-sec {
+        padding: var(--section-padding-vert) 2em !important;
+    }
+}
+
+
+@media screen and (max-width: 600px ){
+    .initial-sec {
+        padding: var(--section-padding-vert) 1em !important; 
+    }
+}
 .super-plus-dark-color{
     color: var(--super-plus-dark-color);
 }

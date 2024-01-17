@@ -7,7 +7,7 @@ import { softSkills } from './skills';
 
 function Skills() {
   return (
-    <section className="skills" id='skills'>
+    <section className="initial-sec  skills" id='skills'>
         <SectionHeader title={'Skills'} subTitle={'My technical and social level'}/>
         <SkillsMainContent />
     </section>

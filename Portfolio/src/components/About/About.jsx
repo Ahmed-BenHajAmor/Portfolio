@@ -5,7 +5,7 @@ import { AboutContent } from './AboutContent';
 
 function About() {
   return (
-    <section className='about' id='about'>
+    <section className='initial-sec  about' id='about'>
       
       <SectionHeader title='About Me' subTitle='My introduction'/>
       <AboutMainContent />

@@ -3,7 +3,7 @@ import {SectionHeader} from '../SectionHeader'
 import ProjectsMainContent from './ProjectsMainContent/ProjectsMainContent'
 function Projects() {
   return (
-    <section id='projects' className="projects">
+    <section id='projects' className="initial-sec projects">
       <SectionHeader title={'Projects'} subTitle={'My work'}/>
       <ProjectsMainContent />
     </section>

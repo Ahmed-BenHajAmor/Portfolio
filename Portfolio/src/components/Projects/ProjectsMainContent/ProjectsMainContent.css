@@ -1,3 +1,7 @@
+.project-main-content{
+    display: flex;
+    justify-content: center;
+}
 .project-main-content-container{
     display: flex;
     justify-content: start;
@@ -6,6 +10,7 @@
     overflow-x: scroll;
     width: calc(100vw - var(--section-padding-horiz) * 2);
     padding-bottom: 15px;
+    height: fit-content;
 }
 
 .project-main-content-container::-webkit-scrollbar{

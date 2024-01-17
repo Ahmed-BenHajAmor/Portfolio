@@ -7,7 +7,7 @@
   --dark-color: rgb(78, 78, 78);
   --normal-dark-color: rgb(97, 97, 97);
   --not-dark-color: rgb(161, 161, 161);
-  --light-color: rgb(216, 216, 216);
+  --light-color: rgb(240, 240, 240);
   
   
   
@@ -45,4 +45,5 @@ body{
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   padding-top: var(--body-padding);
+  width: 100%;
 }
