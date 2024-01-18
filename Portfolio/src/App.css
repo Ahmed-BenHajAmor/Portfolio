@@ -6,22 +6,12 @@
     gap: var(--section-title-content-gap);
 }
 
-@media screen and (max-width: 1480px ){
-    .initial-sec {
-        padding: var(--section-padding-vert) 4em !important;
+@media screen and (max-width: 1500px) {
+    .initial-sec, .home{
+        padding: 7em 2em;
     }
-}
-
-@media screen and (max-width: 1350px ){
-    .initial-sec {
-        padding: var(--section-padding-vert) 2em !important;
-    }
-}
-
-
-@media screen and (max-width: 600px ){
-    .initial-sec {
-        padding: var(--section-padding-vert) 1em !important; 
+    .nav-bar{
+        padding: var(--navbar-padding-vert) 2em;
     }
 }
 .super-plus-dark-color{

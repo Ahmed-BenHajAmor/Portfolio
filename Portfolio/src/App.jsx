@@ -13,14 +13,12 @@ function App() {
     <>
     <NavBar/>
     <myContext.Provider value={{dispatch, state}}>
-      <div className="portfolio-body">
         <ScrollTop />
         <Home />
         <About />
         <Skills />
         <Qualification />
         <Projects />
-      </div>
     </myContext.Provider>
     
     

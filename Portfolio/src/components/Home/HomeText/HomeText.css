@@ -17,6 +17,11 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+@media screen and (max-width: 1200px) {
+    .home-text{
+        width: 20em;
+    }
+}
 
 .name{
     text-align: center;
