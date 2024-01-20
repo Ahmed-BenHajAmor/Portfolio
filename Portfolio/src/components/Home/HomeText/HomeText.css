@@ -12,16 +12,14 @@
 }
 
 .home-text{
-    width: 30em;
+    width: fit-content;
+    min-width: 30rem;
+    max-width: 50rem;
     height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
-@media screen and (max-width: 1200px) {
-    .home-text{
-        width: 20em;
-    }
-}
+
 
 .name{
     text-align: center;

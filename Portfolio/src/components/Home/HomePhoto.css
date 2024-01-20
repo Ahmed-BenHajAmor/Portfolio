@@ -1,6 +1,7 @@
 .home-photo{
     width: var(--photo-width);
     height: var(--photo-height);
+   
     background-image: url("../../assets/my_photo.webp");
     background-position: center;
     background-repeat: no-repeat;
@@ -8,6 +9,9 @@
     transition: .7s ease;
     animation: photo-animation 2s infinite;
     border: 10px rgba(121, 121, 121,.5) solid;
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
 }
 
 
