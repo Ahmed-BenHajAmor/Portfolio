@@ -6,10 +6,4 @@
     padding: 7em var(--section-padding-horiz);
 }
 
-@media screen and (max-width: 1200px) {
-    .home{
-        display: grid;
-        grid-template-columns: auto 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-}
+

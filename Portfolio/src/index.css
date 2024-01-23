@@ -19,8 +19,8 @@
   --logo-font-size: 18px;
   --links-font-size: 17px;
   
-  --photo-width: 30rem;
-  --photo-height: 30rem;
+  --photo-width: 24rem;
+  --photo-height: 24rem;
   --body-padding: 3.38em;
   --section-height: calc(100vh - var(--body-padding));
   
@@ -46,7 +46,6 @@ body{
   font-family: 'Open Sans', sans-serif;
   padding-top: var(--body-padding);
   width: 100%;
-  border: 5px red solid;
 }
 
 
