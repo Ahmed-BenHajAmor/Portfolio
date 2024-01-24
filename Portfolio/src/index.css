@@ -45,10 +45,10 @@ body{
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   padding-top: var(--body-padding);
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 

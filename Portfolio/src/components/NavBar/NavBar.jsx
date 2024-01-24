@@ -31,7 +31,7 @@ const NavBarLogo = () =>{
 
 const NavBarLinks = ({state})=>{
     return (
-        <div className={`links ${!state.isResponsiveNavBarOpen && "hide"}`}>
+        <div className={`links ${state.isResponsiveNavBarOpen && "hide"}`}>
         <BrowserRouter>
         <ul>
             <OneLink text={'Home'} linksTo={'#'}/>

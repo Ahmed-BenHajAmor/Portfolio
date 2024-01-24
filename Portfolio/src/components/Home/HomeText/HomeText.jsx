@@ -4,6 +4,7 @@ import { FaArrowDownLong } from "react-icons/fa6";
 import './HomeText.css';
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+import { homeText } from "./homeText";
 
 
 const HomeText = ()=>{
@@ -22,8 +23,8 @@ return (
 const NamePostDescription = ()=>{
     return (
         <div className="name-post-description">
-            <div className="name super-dark-color"><h1>Ahmed Ben Haj Amor  🖐️</h1></div>
-            <div className="post dark-color"><p>React Developer</p></div>
+            <div className="name super-dark-color"><h1>{homeText.title}</h1></div>
+            <div className="post dark-color"><p>{homeText.subTitle}</p></div>
             <div className="description not-dark-color">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rem quis odio aliquid molestias iure libero qui</p>
             </div>

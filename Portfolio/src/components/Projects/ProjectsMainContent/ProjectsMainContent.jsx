@@ -1,19 +1,16 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import './ProjectsMainContent.css'
-import nikeCloneHome from '../../../assets/nike-clone-home.webp'
-
+import { projects } from './projects'
 function ProjectsMainContent() {
   return (
     <div className="project-main-content">
       <div className="project-main-content-container">
-        
-        <ProjectCard title={'Nike shoes clone'} image={nikeCloneHome}/>
-        <ProjectCard title={'Nike shoes clone'} image={nikeCloneHome}/>
-        <ProjectCard title={'Nike shoes clone'} image={nikeCloneHome}/>
-        <ProjectCard title={'Nike shoes clone'} image={nikeCloneHome}/>
-        <ProjectCard title={'Nike shoes clone'} image={nikeCloneHome}/>
-        <ProjectCard title={'Nike shoes clone'} image={nikeCloneHome}/>
+        {projects.map((item, id)=>{
+          return(
+            <ProjectCard {...item}/>
+          )
+        })}
 
       </div>
     </div>

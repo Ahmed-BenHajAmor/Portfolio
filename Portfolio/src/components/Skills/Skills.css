@@ -5,10 +5,16 @@
     justify-content: center;
 }
 
-
+.width100{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .skills-main-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+    gap: 2rem;
 }
 
 @media screen and (max-width: 800px) {

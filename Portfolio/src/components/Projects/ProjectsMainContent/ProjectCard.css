@@ -1,13 +1,14 @@
 .project-card{
     box-sizing: content-box;
     min-width: 15.4rem;
+    max-width: 17rem;
     height: 18rem;
     padding: 1rem;
     border-radius: 15px;
     background-color: var(--light-color);
     display: grid;
     grid-template-rows: auto auto 1fr;
-    gap: 5px;
+    gap: 10px;
 }
 
 
@@ -47,6 +48,7 @@
 .project-github{
     display: flex;
     align-items: center;
+    font-size: 18px;
 } 
 .project-card-footer *:hover{
     color: var(--super-dark-color);

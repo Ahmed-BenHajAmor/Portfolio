@@ -17,22 +17,25 @@ function Skills() {
 const SkillsMainContent = ()=>{
     
     return (
-        <div className='skills-main-content'>
-            <div className="center hard-skills">
-                <div>
-                    <SkillsTitle title={'Hard skills'}/>
-                    <HSSkills contentArray={hardSkills}/>
+        <div className="width100">
+            <div className='skills-main-content'>
+                <div className="center hard-skills">
+                    <div>
+                        <SkillsTitle title={'Hard skills'}/>
+                        <HSSkills contentArray={hardSkills}/>
+                    </div>
+                    
                 </div>
-                
-            </div>
-            <div className="center hard-skills">
-                <div>
-                    <SkillsTitle title={'Soft skills'}/>
-                    <HSSkills contentArray={softSkills}/>
+                <div className="center hard-skills">
+                    <div>
+                        <SkillsTitle title={'Soft skills'}/>
+                        <HSSkills contentArray={softSkills}/>
+                    </div>
+                    
                 </div>
-                
             </div>
         </div>
+        
     )
 }
 

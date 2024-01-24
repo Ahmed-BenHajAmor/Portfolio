@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 30rem;
 
 }
 
@@ -16,7 +17,7 @@
 .name-post-description{
     display: flex;
     flex-direction: column;
-    gap: 1.7em;
+    gap: 1em;
 }
 
 .home-text{
@@ -36,9 +37,12 @@
 .post p{
     text-align: center;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 13px;
     letter-spacing: 1px;
     color: var(--links-color);
+}
+.post{
+    margin-bottom: 20px;
 }
 
 /*say hello btn section*/

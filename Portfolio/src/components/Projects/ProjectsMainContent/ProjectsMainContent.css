@@ -14,6 +14,7 @@
 }
 @media screen and (max-width: 800px) {
     .project-main-content-container{
+        max-width: 95vw;
         width: 95vw;
     }
 }
