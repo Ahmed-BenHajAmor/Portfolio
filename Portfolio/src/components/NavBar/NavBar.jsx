@@ -6,15 +6,15 @@ import { FaBars } from "react-icons/fa";
 import { myContext } from '../../App';
 
 function NavBar() {
-  const {dispatch,state} = useContext(myContext)
+  const {dispatch, state} = useContext(myContext)
   return (
     <header className="nav-bar">
         <nav>
             <div className='responsive-nav'>
                 <NavBarLogo />
-                <div onClick={()=> dispatch({type: "CHANGE_RES_NAV"})} className="bars"><FaBars size={"25px"}/></div>
+                <div className="bars" onClick={()=> dispatch({type: "CHANGE_RES_NAV"})}><FaBars size={"25px"}/></div>
             </div>
-            <NavBarLinks />
+            <NavBarLinks state={state}/>
             
         </nav>
     </header>
@@ -29,9 +29,9 @@ const NavBarLogo = () =>{
     )
 }
 
-const NavBarLinks = ()=>{
+const NavBarLinks = ({state})=>{
     return (
-        <div className="links">
+        <div className={`links ${!state.isResponsiveNavBarOpen && "hide"}`}>
         <BrowserRouter>
         <ul>
             <OneLink text={'Home'} linksTo={'#'}/>

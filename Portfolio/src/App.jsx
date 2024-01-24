@@ -15,8 +15,9 @@ function App() {
      )
   return (
     <>
-    <NavBar/>
+    
     <myContext.Provider value={{dispatch, state}}>
+        <NavBar/>
         <ScrollTop />
         <Home />
         <About />

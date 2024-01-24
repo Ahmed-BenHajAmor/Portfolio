@@ -2,7 +2,7 @@ import React, {useContext}  from 'react'
 import './QualificationNavigation.css'
 import { FaGraduationCap } from "react-icons/fa";
 import { IoAnalyticsOutline } from "react-icons/io5";
-import { myContext } from '../../../App';
+import { myContext } from '../../../App'
 
 
 const QualificationNavigation = ()=>{
