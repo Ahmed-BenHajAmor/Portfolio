@@ -1,18 +1,24 @@
 .initial-sec{
-    padding: var(--section-padding-vert) var(--section-padding-horiz);
-    height: var(--section-height);
+    min-height: var(--section-height);
     display: grid;
     grid-template-rows: auto 1fr;
     gap: var(--section-title-content-gap);
 }
 
-@media screen and (max-width: 1500px) {
-    .initial-sec, .home{
-        padding: 7em 2em;
+@media screen and (max-width: 1200px) {
+    .home,
+    .about,
+    .skills,
+    .qualifications,
+    .projects{
+        padding: 7em 20px;
     }
-    .nav-bar{
-        padding: var(--navbar-padding-vert) 2em;
-    }
+    
+    
+}
+.nav-bar,
+section{
+    max-width: 1600px;
 }
 .super-plus-dark-color{
     color: var(--super-plus-dark-color);

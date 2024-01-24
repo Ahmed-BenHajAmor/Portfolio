@@ -23,3 +23,37 @@
     height: fit-content;
     padding: 10px 30px;
 }
+
+@media screen and (max-width: 500px) {
+    .skill-title{
+        font-size: 15px;
+        
+    }
+    
+    .skill-sub-title{
+        font-size: 8px;
+    } 
+    .skill-container{
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .skill-title{
+        font-size: 10px;
+        
+    }
+    
+    .skill-sub-title{
+        font-size: 6px;
+    } 
+
+    .skill-container{
+        padding: 2px 7px;
+    }
+    .skill-icon{
+        font-size: 7px;
+        position: relative;
+        top: 0;
+    }
+}

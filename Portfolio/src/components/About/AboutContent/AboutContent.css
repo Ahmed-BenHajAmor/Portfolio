@@ -8,6 +8,13 @@
     justify-self: center;
     width: 25em;
 }
+@media screen and (max-width: 600px) {
+    .about-content{
+        width: 95vw;
+    }
+    
+    
+}
 .download-cv-btn{
     display: flex;
     justify-content: space-between;

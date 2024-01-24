@@ -1,6 +1,6 @@
 .about-cart{
     padding: 14px 11px;
-    width: 7.2em;
+    max-width: 7.2em;
     height: fit-content;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 10px;
@@ -21,4 +21,30 @@
 
 .about-icon{
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .about-cart-title p{
+        font-size: 12px;
+    }
+    
+    .about-cart-sub-title p{
+        font-size: 10px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 310px) {
+    .about-cart-title p{
+        font-size: 8px;
+    }
+    
+    .about-cart-sub-title p{
+        font-size: 6px;
+    }
+
+    
+    
 }
