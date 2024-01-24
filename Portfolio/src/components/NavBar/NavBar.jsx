@@ -1,12 +1,19 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import './NavBar.css'
 import { HashLink as Link } from 'react-router-hash-link'
 import { BrowserRouter } from 'react-router-dom'
+import { FaBars } from "react-icons/fa";
+import { myContext } from '../../App';
+
 function NavBar() {
+  const {dispatch,state} = useContext(myContext)
   return (
     <header className="nav-bar">
         <nav>
-            <NavBarLogo />
+            <div className='responsive-nav'>
+                <NavBarLogo />
+                <div onClick={()=> dispatch({type: "CHANGE_RES_NAV"})} className="bars"><FaBars size={"25px"}/></div>
+            </div>
             <NavBarLinks />
             
         </nav>

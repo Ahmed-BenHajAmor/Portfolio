@@ -43,3 +43,42 @@ nav{
     width: fit-content;
     cursor: pointer;
 }
+.responsive-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.bars{
+    display: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-bar nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .links{
+        width: 100%;
+        padding: 30px;
+    }
+    .links ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        font-size: var(--links-font-size);
+        width: 100%;
+    }
+    .links li{
+        padding: 5px 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .bars{
+        display: block;
+    }
+}
