@@ -26,7 +26,7 @@ const NamePostDescription = ()=>{
             <div className="name super-dark-color"><h1>{homeText.title}</h1></div>
             <div className="post dark-color"><p>{homeText.subTitle}</p></div>
             <div className="description not-dark-color">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rem quis odio aliquid molestias iure libero qui</p>
+                <p>{homeText.description}</p>
             </div>
         </div>
     )
