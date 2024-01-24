@@ -33,3 +33,17 @@
     border: 1px rgba(97, 97, 97, .3) solid;
     border-radius: 25px 25px 0 0;
 }
+
+@media screen and (max-width: 370px) {
+    .qualification-link{
+
+        padding: 10px 25px;
+
+    }
+    .Qualification-link-title {
+        font-size: 15px;
+    }
+    .Qualification-link-icon span{
+        width: 20px;
+    } 
+}

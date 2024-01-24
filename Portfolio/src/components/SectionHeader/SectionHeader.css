@@ -12,3 +12,12 @@
 .section-title-p{
     font-size: var(--section-title-p-font-size);
 }
+
+@media screen and (max-width: 300px) {
+    .section-title-h{
+        font-size: calc(var(--section-title-h-font-size)-7px);
+    }
+    .section-title-p{
+        font-size: var(var(--section-title-p-font-size)-8px);
+    }
+}

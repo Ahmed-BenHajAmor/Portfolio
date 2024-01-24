@@ -40,12 +40,12 @@
 
 @media screen and (max-width: 300px) {
     .skill-title{
-        font-size: 10px;
+        font-size: 12px;
         
     }
     
     .skill-sub-title{
-        font-size: 6px;
+        font-size: 7.5px;
     } 
 
     .skill-container{
