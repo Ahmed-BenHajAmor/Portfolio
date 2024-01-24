@@ -35,3 +35,52 @@
     left: -4px;
     
 }
+
+
+
+@media screen and (max-width: 290px) {
+    .qualification-element-title span{
+        font-size: 12px;
+    }
+    .qualification-element-platform span{
+        font-size: 10px;
+    }
+    .qualification-element-year span{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 230px) {
+    .qualification-element-title span{
+        font-size: 10px;
+    }
+    .qualification-element-platform span{
+        font-size: 9px;
+    }
+    .qualification-element-year span{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 210px) {
+    .qualification-element-title span{
+        font-size: 9px;
+    }
+    .qualification-element-platform span{
+        font-size: 6px;
+    }
+    .qualification-element-year span{
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width: 150px) {
+    .qualification-element-title span{
+        font-size: 6px;
+    }
+    .qualification-element-platform span{
+        font-size: 6px;
+    }
+    .qualification-element-year span{
+        font-size: 6px;
+    }
+}

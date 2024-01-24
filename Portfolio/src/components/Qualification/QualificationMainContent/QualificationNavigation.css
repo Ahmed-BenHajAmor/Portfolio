@@ -41,7 +41,20 @@
 
     }
     .Qualification-link-title {
-        font-size: 15px;
+        font-size: 10px;
+    }
+    .Qualification-link-icon span{
+        width: 20px;
+    } 
+}
+@media screen and (max-width: 250px) {
+    .qualification-link{
+
+        padding: 5px 10px;
+
+    }
+    .Qualification-link-title {
+        font-size: 10px;
     }
     .Qualification-link-icon span{
         width: 20px;
