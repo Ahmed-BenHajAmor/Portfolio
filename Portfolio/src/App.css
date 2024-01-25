@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     gap: var(--section-title-content-gap);
+    margin-bottom: 50px;
 }
 
 section{

@@ -2,22 +2,33 @@ export const hardSkills = [
     {
         id: 1,
         title: 'HTML',
-        subTitle: 'SINCE 2021'
+        subTitle: 'SINCE 2022'
     },
     {
         id: 2,
-        title: 'HTML',
-        subTitle: 'SINCE 2021'
+        title: 'CSS',
+        subTitle: 'SINCE 2022'
     },
     {
         id: 3,
-        title: 'HTML',
-        subTitle: 'SINCE 2021'
+        title: 'JavaScript',
+        subTitle: 'SINCE Sep 2022'
     },
 
     {
         id: 4,
-        title: 'HTML',
+        title: 'React Js',
+        subTitle: 'SINCE 2023'
+    },
+
+    {
+        id: 5,
+        title: 'React-Router-DOM',
+        subTitle: 'SINCE 2023'
+    },
+    {
+        id: 6,
+        title: 'Python',
         subTitle: 'SINCE 2021'
     },
 
@@ -27,23 +38,22 @@ export const hardSkills = [
 export const softSkills = [
     {
         id: 1,
-        title: 'HTML',
-        subTitle: 'SINCE 2021'
+        title: 'Communication',
+        subTitle: 'JCI/GDSC'
     },
     {
         id: 2,
-        title: 'HTML',
-        subTitle: 'SINCE 2021'
+        title: 'Public Speaking',
+        subTitle: 'JCI'
     },
     {
         id: 3,
-        title: 'HTML',
-        subTitle: 'SINCE 2021'
+        title: 'Debating Technics',
+        subTitle: 'JCI'
     },
-
     {
         id: 4,
-        title: 'HTML',
-        subTitle: 'SINCE 2021'
+        title: 'Leadership',
+        subTitle: 'JCI'
     },
 ]

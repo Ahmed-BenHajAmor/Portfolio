@@ -3,7 +3,7 @@ import { IoNewspaperOutline } from "react-icons/io5";
 import { MdWork } from "react-icons/md";
 import { AiFillProject } from "react-icons/ai";
 import { FaPeopleCarry } from "react-icons/fa";
-
+import ahmedBenHajAmorCV from '../../../assets/cv.pdf'
 import AboutCart from '../AboutCard/AboutCard';
 import './AboutContent.css';
 import { aboutme } from './aboutme';
@@ -45,7 +45,7 @@ return (
 const DownloadCVBtn = ()=>{
     return(
       <div className='download-cv'>
-        <a href=""><button className='download-cv-btn'><p>Download CV</p><IoNewspaperOutline className='paper'/></button></a>
+        <a href={ahmedBenHajAmorCV} download={'ahmedBenHajAmorCV.pdf'} do><button className='download-cv-btn'><p>Download CV</p><IoNewspaperOutline className='paper'/></button></a>
       </div>
     )
   }
