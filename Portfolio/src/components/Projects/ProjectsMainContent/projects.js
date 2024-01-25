@@ -13,6 +13,6 @@ export const projects = [
         title: 'simple weather web app',
         image: weatherApp,
         githubLink: 'https://github.com/Ahmed-BenHajAmor/Weather-application',
-        demoLink: 'https://weather-application-3ggy9ij9s-ahmedbenhajamorr-gmailcom.vercel.app/'
+        demoLink: 'https://weather-application-reactjs.vercel.app/'
     },
 ]
