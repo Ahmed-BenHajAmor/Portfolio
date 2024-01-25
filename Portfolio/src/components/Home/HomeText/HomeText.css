@@ -4,12 +4,14 @@
     align-items: center;
     justify-content: center;
     max-width: 30rem;
+    
 
 }
 
 @media screen and (max-width: 1200px) {
     .home-text-container{
         width: 90vw;
+        order: 3;
     }
     
     

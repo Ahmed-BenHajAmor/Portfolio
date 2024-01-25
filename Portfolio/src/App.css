@@ -14,12 +14,12 @@ section{
     .skills,
     .qualifications,
     .projects{
-        padding: 7em 20px;
+        padding: 4em 20px;
     }
     
     
 }
-.nav-bar,
+nav,
 section{
     max-width: 1600px;
 }
