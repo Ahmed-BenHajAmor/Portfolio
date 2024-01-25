@@ -7,6 +7,8 @@
     padding: 7em var(--section-padding-horiz);
 }
 
+
+
 @media screen and (max-width: 1200px) {
     .home{
         display: flex;

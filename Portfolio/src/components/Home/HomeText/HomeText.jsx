@@ -35,10 +35,13 @@ const NamePostDescription = ()=>{
 const SayHelloBtn = ()=>{
     return (
         <div className="say-hello">
-            <a href="#">
+            <BrowserRouter>
+            <Link to="#footer" smooth>
                 <div className='say-hello-text'>Say Hello</div>
                 <div className="say-hello-icon"><FiSend className='say-hello-icon'/></div>
-            </a>
+            </Link>
+            </BrowserRouter>
+           
         </div>
     )
 }

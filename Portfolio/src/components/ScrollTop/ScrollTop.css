@@ -17,3 +17,9 @@
 .arrowup path{
     color: white;
 }
+
+@media screen and (max-width: 500px) {
+    .scroll-top{
+        margin: 20px;
+    }
+}

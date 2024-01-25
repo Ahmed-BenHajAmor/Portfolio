@@ -8,7 +8,7 @@ function ProjectsMainContent() {
       <div className="project-main-content-container">
         {projects.map((item, id)=>{
           return(
-            <ProjectCard {...item}/>
+            <ProjectCard key={id} {...item}/>
           )
         })}
 

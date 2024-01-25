@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import { HomeText } from './HomeText';
 import './Home.css';
 import './HomeAccounts.css';
@@ -21,7 +21,7 @@ const HomeAccounts = ()=>{
   return (
     <div className="home-accounts-container">
         <div className="accounts-icons">
-          <a href="#" target="_blank" rel="noopener noreferrer"><FaInstagram className='account-icon dark-color'/></a>
+          <a href="#" target="_blank" rel="noopener noreferrer"><FaFacebook className='account-icon dark-color'/></a>
           <a href="#" target="_blank" rel="noopener noreferrer"><FaLinkedin className='account-icon dark-color'/></a>
           <a href="https://github.com/Ahmed-BenHajAmor" target="_blank" rel="noopener noreferrer"><FaGithub className='account-icon dark-color'/></a>
         </div>

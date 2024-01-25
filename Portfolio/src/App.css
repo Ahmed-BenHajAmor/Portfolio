@@ -1,6 +1,8 @@
 .initial-sec{
-    display: grid;
-    grid-template-rows: auto 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     gap: var(--section-title-content-gap);
 }
 
@@ -45,5 +47,9 @@ section{
 
 .p-font-size{
     font-size: var(--section-title-p-font-size);
+}
+
+#root{
+    width: 100%;
 }
 
