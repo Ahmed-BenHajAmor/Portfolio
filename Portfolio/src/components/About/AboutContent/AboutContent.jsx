@@ -6,6 +6,7 @@ import { FaPeopleCarry } from "react-icons/fa";
 
 import AboutCart from '../AboutCard/AboutCard';
 import './AboutContent.css';
+import { aboutme } from './aboutme';
 
 function AboutContent() {
     return (
@@ -14,8 +15,7 @@ function AboutContent() {
               <AboutCards />
             </div>
             
-            <AboutDiscrition discrition='Lorem ipsum, dolor sit amet consectetur 
-            adipisicing elit. Architecto id alias distinctio beatae enim' />
+            <AboutDescription description={aboutme.text} />
             <DownloadCVBtn />
           </div>
       )
@@ -25,18 +25,18 @@ function AboutContent() {
 const AboutCards = ()=>{
 return (
     <div className='about-cards'>
-        <AboutCart Icon={MdWork} title={"Experience"} subTitle={"0 years"}/>
-        <AboutCart Icon={AiFillProject} title={"Completed"} subTitle={"3 Projects"}/>
-        <AboutCart Icon={FaPeopleCarry} title={"Organisations"} subTitle={"2 Organisations"}/>
+        <AboutCart Icon={MdWork} title={"Experience"} subTitle={aboutme.experience}/>
+        <AboutCart Icon={AiFillProject} title={"Completed"} subTitle={aboutme.projects}/>
+        <AboutCart Icon={FaPeopleCarry} title={"organizations"} subTitle={aboutme.organizations}/>
     </div>
 )
 }
 
 
-const AboutDiscrition = ({discrition})=>{
+const AboutDescription = ({description})=>{
 return (
     <div className='about-text not-dark-color'>
-    <p>{discrition}</p>
+    <p>{description}</p>
     </div>
 )
 
@@ -45,7 +45,7 @@ return (
 const DownloadCVBtn = ()=>{
     return(
       <div className='download-cv'>
-        <button className='download-cv-btn'><p>Download CV</p><IoNewspaperOutline className='paper'/></button>
+        <a href=""><button className='download-cv-btn'><p>Download CV</p><IoNewspaperOutline className='paper'/></button></a>
       </div>
     )
   }

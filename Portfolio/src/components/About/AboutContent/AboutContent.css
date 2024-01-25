@@ -15,6 +15,10 @@
     
     
 }
+.download-cv a{
+    display: block;
+    width: fit-content;
+}
 .download-cv-btn{
     display: flex;
     justify-content: space-between;
@@ -40,4 +44,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.about-text{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: justify;
 }

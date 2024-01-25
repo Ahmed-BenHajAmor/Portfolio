@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -16,9 +16,9 @@ const FooterAccounts = ()=>{
     return (
       <div className="footer-accounts-container">
           <div className="footer-accounts-icons">
-            <a href="#" target="_blank" rel="noopener noreferrer"><FaInstagram className='footer-account-icon'/></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><FaFacebook className='footer-account-icon'/></a>
             <a href="#" target="_blank" rel="noopener noreferrer"><FaLinkedin className='footer-account-icon'/></a>
-            <a href="https://github.com/Ahmed-BenHajAmor" target="_blank" rel="noopener noreferrer"><FaGithub className='account-icon dark-color'/></a>
+            <a href="https://github.com/Ahmed-BenHajAmor" target="_blank" rel="noopener noreferrer"><FaGithub className='footer-icon dark-color'/></a>
           </div>
         </div>
     )
