@@ -9,7 +9,7 @@ export const myContext = createContext()
 
 function App() {
   const [state, dispatch] = useReducer(Reducer,
-     {edu: false,
+     {edu: true,
       isResponsiveNavBarOpen: false
      }
      )
