@@ -42,13 +42,13 @@ export const roadMap = [
     {
         number: 4,
         title: "Basics of TensorFlow",
-        platform: "freeCodeCamp / BroCode(YouTube)",
+        platform: "Daniel Bourk(YouTube)",
         year: 'june 2022',
     },
     {
         number: 5,
         title: "HTML && CSS",
-        platform: "Daniel (YouTube)",
+        platform: "freeCodeCamp / BroCode(YouTube)",
         year: 'july 2022',
     },
     {
