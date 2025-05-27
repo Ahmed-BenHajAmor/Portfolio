@@ -25,7 +25,7 @@ function AboutContent() {
 const AboutCards = ()=>{
 return (
     <div className='about-cards'>
-        <AboutCart Icon={MdWork} title={"Experience"} subTitle={aboutme.experience}/>
+        <AboutCart Icon={MdWork} title={"Internships"} subTitle={aboutme.experience}/>
         <AboutCart Icon={AiFillProject} title={"Completed"} subTitle={aboutme.projects}/>
         <AboutCart Icon={FaPeopleCarry} title={"organizations"} subTitle={aboutme.organizations}/>
     </div>
