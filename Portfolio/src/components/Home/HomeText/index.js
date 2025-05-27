@@ -1,1 +1,1 @@
-export { default as HomeText } from './HomeText'
+export { default as HomeText } from './HomeText.jsx'

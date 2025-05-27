@@ -1,9 +1,15 @@
 import nikeCloneHome from '../../../assets/nike-clone-home.webp'
 import weatherApp from '../../../assets/weather-app.webp'
 import taw9itSalat from '../../../assets/taw9it_salat.webp'
+import SAGA from '../../../assets/SAGA.png'
 
 
 export const projects = [
+    {
+        title: 'SAGA',
+        image: SAGA,
+        githubLink: 'https://github.com/Ahmed-BenHajAmor/pfa',
+    },
     {
         title: 'Nike shoes clone',
         image: nikeCloneHome,

@@ -84,20 +84,38 @@ export const roadMap = [
     {
         number: 11,
         title: "C",
-        platform: "cs50",
+        platform: "cs50/University",
         year: 'October 2023 --> 2024',
     },
     {
         number: 12,
-        title: "Linux Shell",
+        title: "Linux OS",
         platform: "University",
         year: 'October 2023 --> 2024',
     },
     {
         number: 13,
-        title: "MatLab",
+        title: "Networking",
         platform: "University",
-        year: 'JOctober 2023 --> 2024',
+        year: '2024',
+    },
+    {
+        number: 14,
+        title: "JAVA",
+        platform: "University",
+        year: '2024',
+    },
+    {
+        number: 15,
+        title: "SQL",
+        platform: "University",
+        year: '2024',
+    },
+    {
+        number: 1200,
+        title: "Practice and Share knowledge",
+        platform: "-",
+        year: 'ALWAYS',
     },
 
 ]

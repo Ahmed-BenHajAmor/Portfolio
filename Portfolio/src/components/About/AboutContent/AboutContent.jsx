@@ -36,7 +36,7 @@ return (
 const AboutDescription = ({description})=>{
 return (
     <div className='about-text not-dark-color'>
-    <p>{description}</p>
+    <p style={{ whiteSpace: 'pre-line' }}>{description}</p>
     </div>
 )
 

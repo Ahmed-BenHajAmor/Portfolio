@@ -1,6 +1,7 @@
 export const aboutme = {
     experience: '0 years',
-    projects: '3 projects',
-    organizations: '2 organizations',
-    text: 'I am a self-taught React developer, embarking on my coding journey in March 2021. Leveraging YouTube as my primary learning platform, I have honed my skills and gained proficiency in React development. Beyond my individual pursuits, I actively contribute to two prominent international organizations: JCI (Junior Chamber International) and GDSC (Google Developer Student Clubs). Within JCI, I serve as a dedicated member on the Media, Internal Relations, and Fundraising committees, bringing a multifaceted approach to my involvement. This diverse experience not only showcases my technical capabilities but also underscores my commitment to community engagement and collaborative initiatives.'
-}
+    projects: '4 projects',
+    organizations: '3 organizations',
+    text: "I’m a self-taught web enthusiast who began exploring web development in March 2021. Through platforms like YouTube and hands-on projects, I’ve built a strong foundation in front-end technologies and continue to expand my skills across the web stack.\n\nOutside of tech, I actively contribute to JCI , GDG FST and Securinets, where I’ve developed strong teamwork, communication, and leadership abilities. I'm currently looking for a web development internship where I can learn from experienced teams, contribute meaningfully, and grow as a developer."
+  }
+  

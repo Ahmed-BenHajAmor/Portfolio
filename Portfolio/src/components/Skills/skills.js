@@ -28,6 +28,31 @@ export const hardSkills = [
     },
     {
         id: 6,
+        title: 'Express.js',
+        subTitle: 'SINCE 2025'
+    },
+    {
+        id: 7,
+        title: 'SQL',
+        subTitle: 'SINCE 2024'
+    },
+    {
+        id: 8,
+        title: 'UML design',
+        subTitle: 'SINCE 2024'
+    },
+    {
+        id: 8,
+        title: 'Networking',
+        subTitle: 'SINCE 2024'
+    },
+    {
+        id: 10,
+        title: 'JAVA',
+        subTitle: 'SINCE 2024'
+    },
+    {
+        id: 11,
         title: 'Python',
         subTitle: 'SINCE 2021'
     },
@@ -56,4 +81,10 @@ export const softSkills = [
         title: 'Leadership',
         subTitle: 'JCI'
     },
+    {
+        id: 5,
+        title: 'Agile Workflow',
+        subTitle: 'University'
+    },
+
 ]
