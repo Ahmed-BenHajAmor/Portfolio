@@ -48,7 +48,7 @@ export const hardSkills = [
     },
     {
         id: 10,
-        title: 'JAVA',
+        title: 'Java',
         subTitle: 'SINCE 2024'
     },
     {
