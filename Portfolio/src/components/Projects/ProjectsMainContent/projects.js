@@ -8,7 +8,7 @@ export const projects = [
     {
         title: 'Info Academy',
         image: InfoAcademy,
-        githubLink: 'https://github.com/Ahmed-BenHajAmor/infoacademyimage.png',
+        githubLink: 'https://github.com/Ahmed-BenHajAmor/infoacademy',
     },
     {
         title: 'SAGA',
