@@ -102,7 +102,7 @@ export const roadMap = [
     {
         number: 14,
         title: "JAVA",
-        platform: "University",
+        platform: "Telusko (YouTube) / University",
         year: '2024',
     },
     {
@@ -118,10 +118,23 @@ export const roadMap = [
         year: '2025',
     },
     {
+        number: 17,
+        title: "Servlet & JSP",
+        platform: "Telusko (YouTube)",
+        year: '2025',
+    },
+    {
+        number: 18,
+        title: "Spring & Spring-Boot",
+        platform: "Telusko (Youtube)",
+        year: '2025',
+    },
+    {
         number: 1201,
         title: "Practice and Share knowledge",
         platform: "-",
         year: 'ALWAYS',
     },
+
 
 ]

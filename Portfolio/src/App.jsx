@@ -10,7 +10,8 @@ export const myContext = createContext()
 function App() {
   const [state, dispatch] = useReducer(Reducer,
      {edu: false,
-      isResponsiveNavBarOpen: false
+      isResponsiveNavBarOpen: false,
+      hardSkills: "Backend"
      }
      )
   return (

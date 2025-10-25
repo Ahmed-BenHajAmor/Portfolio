@@ -5,7 +5,7 @@ import { IoAnalyticsOutline } from "react-icons/io5";
 import { myContext } from '../../../App'
 
 
-const QualificationNavigation = ()=>{
+export const QualificationNavigation = ()=>{
   const {dispatch, state} = useContext(myContext)
   return (
     <div className='qualification-navigation'>
@@ -15,7 +15,7 @@ const QualificationNavigation = ()=>{
   )
 }
 
-const QualificationLink = ({onClick, text, Icon, edu})=>{
+export const QualificationLink = ({onClick, text, Icon, edu})=>{
   return (
     <div onClick={onClick} className={`qualification-link border-bottom ${edu && "border-change"}`}>
       <div className="Qualification-link-icon super-dark-color"><span><Icon size={"25px"}/></span></div>

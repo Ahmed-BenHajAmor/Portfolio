@@ -34,14 +34,14 @@
     border-radius: 25px 25px 0 0;
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 391px) {
     .qualification-link{
 
-        padding: 10px 25px;
+        padding: 10px 15px;
 
     }
     .Qualification-link-title {
-        font-size: 10px;
+        font-size: 15px;
     }
     .Qualification-link-icon span{
         width: 20px;
