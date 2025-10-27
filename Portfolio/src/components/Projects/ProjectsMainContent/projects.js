@@ -78,7 +78,7 @@ export const projects = [
         ],
         timeline: {
             duration: "8 weeks",
-            phases: "Planning & Design (2 weeks), Development (4 weeks), Testing (2 weeks)"
+            phases: "Planning & Design (2 weeks), Development (6 weeks)"
         },
         potentialImprovements: [
             "Real-time notifications for absences and updates",
