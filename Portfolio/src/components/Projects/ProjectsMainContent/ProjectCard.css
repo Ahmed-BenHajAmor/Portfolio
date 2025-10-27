@@ -53,3 +53,11 @@
 .project-card-footer *:hover{
     color: var(--super-dark-color);
 }
+
+.project-details > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
